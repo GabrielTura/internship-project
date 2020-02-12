@@ -3,6 +3,7 @@
     <DashboardMenu/>
     <DashboardNavBar/>
     <DashboardNavBarMessage/>
+    <DashboardMain/>
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import DashboardMenu from "@/components/DashboardMenu.vue";
 import DashboardNavBar from "@/components/DashboardNavBar.vue";
 import DashboardNavBarMessage from "@/components/DashboardNavBarMessage.vue";
+import DashboardMain from "@/components/DashboardMain.vue";
 
 export default {
   name: "Dashboard",
   components: {
     DashboardMenu,
     DashboardNavBar,
-    DashboardNavBarMessage
+    DashboardNavBarMessage,
+    DashboardMain
   }
 };
 </script>

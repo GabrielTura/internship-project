@@ -6,9 +6,10 @@
 <style>
     .message{
         position: fixed;
-        margin-top: 2px;
+        margin-top: 3px;
         margin-left: 55px;
-        background-color: transparent;
+        font-weight: bold;
+        background-color: transparent !important;
     }
     .dashNavMens{
         position: fixed;
