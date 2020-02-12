@@ -1,10 +1,10 @@
 <template>
   <div class="dash">
-    <DashboardMenu/>
-    <DashboardNavBar/>
-    <DashboardNavBarMessage/>
-    <DashboardMain/>
-    <DashboardFooter/>
+    <DashboardMenu />
+    <DashboardNavBar />
+    <DashboardNavBarMessage />
+    <DashboardMain />
+    <DashboardFooter />
   </div>
 </template>
 

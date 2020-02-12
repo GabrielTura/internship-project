@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <NavBar/>
-    <FormLogin/>
-    <Footer/>
+    <NavBar />
+    <FormLogin />
+    <Footer />
   </div>
 </template>
 

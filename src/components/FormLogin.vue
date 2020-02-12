@@ -23,25 +23,23 @@
       </div>
     </div>
 </template>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-.label{
+.label {
   color: #A5220C !important;
 }
-.label-checkbox{
+.label-checkbox {
   color: #979797 !important;
   font-size: .9rem;
 }
-.label-end{
+.label-end {
   color: #979797 !important;
   font-size: .9rem;
   margin-left: 157px;
 }
-.label-end:hover{
+.label-end:hover {
   color: #707070 !important;
 }
-.formLogin{
+.formLogin {
   background-color:#FFF;
   border-radius: 20px;
   width: 550px;
@@ -52,23 +50,23 @@
   padding-left: 60px;
   padding-right: 60px;
 }
-.fields-custom{
+.fields-custom {
   margin-top: 20px;
   text-align: left;
 }
-.btn-login{
+.btn-login {
   margin-top: 25px;
   background-color: #EBAE1D !important;
   color: #FFF !important;
   width: 250px;
 }
-.gradient-color-overlay{
+.gradient-color-overlay {
   width: 100%;
   height: 100%;
   background: linear-gradient(45deg, rgb(235, 174, 29), rgb(234, 87, 3), rgb(217, 0, 15));
   opacity: .7;
 }
-.background{
+.background {
   background: #000 url("../assets/background-home.png");
   color: #fff;
   height: 600px;

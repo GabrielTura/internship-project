@@ -1,5 +1,13 @@
 # red-online
 
+## Things To Do
+
+ - Fix All Reponsives Bugs
+ - Add All Animations
+ - Convert Layout Desktop for Layout Mobile
+ - Fix All Console Warnings
+ - Organize the Code - Better
+
 ## Project setup
 ```
 npm install

@@ -4,12 +4,12 @@
     </div>
 </template>
 <style>
-.footer-text{
+.footer-text {
     position: fixed;
     margin-top: 8px;
     margin-left: 400px;
 }
-.footer-dash{
+.footer-dash {
     position: fixed;
     font-size: .8rem;
     color: #FFF;

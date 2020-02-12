@@ -13,29 +13,29 @@
     </b-navbar>
 </template>
 <style>
-.span-test{
-    margin-top: 39px;
-    margin-right: 18px;
-    text-align: left;
-    font-size: 0.7rem;
-    letter-spacing: 0.18px;
-    color: #B3AFB3;
-    opacity: 1;
+.span-test {
+  margin-top: 39px;
+  margin-right: 18px;
+  text-align: left;
+  font-size: 0.7rem;
+  letter-spacing: 0.18px;
+  color: #B3AFB3;
+  opacity: 1;
 }
 .avatar {
-    margin: 27px 5px 27px 5px;
-    padding: 0 5px 0 5px;
-    border-radius: 100px;
-    border: 2px solid #cfd8dc;
-    transition: 0.3s;
+  margin: 27px 5px 27px 5px;
+  padding: 0 5px 0 5px;
+  border-radius: 100px;
+  border: 2px solid #cfd8dc;
+  transition: 0.3s;
 }
 
-.avatar:hover{
-    background-color: #707070;
-    cursor: pointer;
+.avatar:hover {
+  background-color: #707070;
+  cursor: pointer;
 }
 
-.tt{
+.tt {
     height: 94px;
 }
 

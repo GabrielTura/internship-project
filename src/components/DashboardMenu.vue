@@ -50,31 +50,31 @@
     </b-menu>
 </template>
 <style>
-  .img-item{
-    position: absolute;
-    margin-left: 15px;
-    margin-top: 5px;
-  }
-  .itens-text{
-    font-size: 15px;
-    margin-left: 40px;
-  }
-  .dash{
-    width: 33.33vh;
-    height: 100vh;
-    text-align: start !important;
-    box-shadow: 3px 0px 5px 0px #00000026;
-  }
-  .gradient-color-overlay{
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(114deg, rgb(235, 174, 29), rgb(234, 87, 3), rgb(217, 0, 15));
-    opacity: .7;
-  }
-  .icon-back{
-    background: rgb(228, 139, 88) url("../assets/logo-dash-small.png") no-repeat;    height: 100px;
-    width: 33.33vh;
-    display: flex;
-    background-position-x: center;
-  }
+.img-item{
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.itens-text{
+  font-size: 15px;
+  margin-left: 40px;
+}
+.dash{
+  width: 33.33vh;
+  height: 100vh;
+  text-align: start !important;
+  box-shadow: 3px 0px 5px 0px #00000026;
+}
+.gradient-color-overlay{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(114deg, rgb(235, 174, 29), rgb(234, 87, 3), rgb(217, 0, 15));
+  opacity: .7;
+}
+.icon-back{
+  background: rgb(228, 139, 88) url("../assets/logo-dash-small.png") no-repeat;    height: 100px;
+  width: 33.33vh;
+  display: flex;
+  background-position-x: center;
+}
 </style>
