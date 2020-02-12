@@ -24,7 +24,7 @@
         <b-menu-list label="BIBLIOTECA">
             <div>
               <img class="img-item" src="../assets/videoaulas-1.svg"/>
-              <b-menu-item class="itens-text" label="Videoaulas"></b-menu-item>
+              <b-menu-item class="itens-text" style="margin-top:-5px;" label="Videoaulas"></b-menu-item>
             </div>
             <div>
               <img class="img-item" src="../assets/materiais-1.svg"/>
@@ -41,6 +41,10 @@
             <div>
               <img class="img-item" src="../assets/tutoriais-1.svg"/>
               <b-menu-item class="itens-text" label="Tutoriais"></b-menu-item>
+            </div>
+            <div style="margin-top:295px;">
+              <img class="img-item" src="../assets/upload.svg"/>
+              <b-menu-item class="itens-text" label="Nova Redação"></b-menu-item>
             </div>
         </b-menu-list>
     </b-menu>
