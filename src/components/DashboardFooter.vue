@@ -13,10 +13,10 @@
     position: fixed;
     font-size: .8rem;
     color: #FFF;
-    margin-top: -30px;
+    margin-top: -34px;
     margin-left: 33vh;
     width: 100%;
-    height: 30px;
+    height: 34px;
     opacity: 1;
     background-color: #D7311C;
 }

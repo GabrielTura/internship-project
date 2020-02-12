@@ -4,7 +4,7 @@
         <div class="gradient-color-overlay"></div>
       </div>
         <b-menu-list>
-            <div>
+            <div style="background-color: #F5B40026;">
               <img style="position:absolute;margin-left:11px;margin-top:5px;" src="../assets/home.svg"/>
               <b-menu-item class="itens-text" label="Painel"></b-menu-item>
             </div>
@@ -21,7 +21,7 @@
               <b-menu-item class="itens-text" label="Simulados"></b-menu-item>
             </div>
         </b-menu-list>
-        <b-menu-list label="BIBLIOTECA">
+        <b-menu-list label="BIBLIOTECA"><hr class="hr-label">
             <div>
               <img class="img-item" src="../assets/videoaulas-1.svg"/>
               <b-menu-item class="itens-text" style="margin-top:-5px;" label="Videoaulas"></b-menu-item>
@@ -42,14 +42,20 @@
               <img class="img-item" src="../assets/tutoriais-1.svg"/>
               <b-menu-item class="itens-text" label="Tutoriais"></b-menu-item>
             </div>
-            <div style="margin-top:295px;">
-              <img class="img-item" src="../assets/upload.svg"/>
-              <b-menu-item class="itens-text" label="Nova Redação"></b-menu-item>
+            <div style="margin-top:276px;height:50px;background-color:#ECECEC;">
+              <img class="img-item" style="margin-top:17px;" src="../assets/upload.svg"/>
+              <b-menu-item class="itens-text" style="margin-top:10px;" label="Nova Redação"></b-menu-item>
             </div>
         </b-menu-list>
     </b-menu>
 </template>
 <style>
+.hr-label{
+  margin-left: 100px;
+  margin-top: -22px;
+  background-color:#B3AFB3;
+  width: 155px;
+}
 .img-item{
   position: absolute;
   margin-left: 15px;
@@ -58,6 +64,14 @@
 .itens-text{
   font-size: 15px;
   margin-left: 40px;
+}
+.menu-list a{
+  color: #B3AFB3 !important;
+}
+.menu-label{
+  margin-left: 10px;
+  color: #B3AFB3 !important;
+  font-weight: 600 !important;
 }
 .dash{
   width: 33.33vh;
