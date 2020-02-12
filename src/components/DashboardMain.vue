@@ -165,14 +165,14 @@
         font-size: .75rem;
     }
     .span-span{
-        margin-left: 6px;
+        margin-left: 12px;
     }
     .span-news{
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        font-size: .9rem;
-        margin-left: 10px;
+        font-size: .85rem;
+        margin-left: 20px;
         line-height: 28px;
         color: #FFF;
         display:block;
