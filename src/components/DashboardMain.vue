@@ -143,6 +143,12 @@
                                     <img src="../assets/folha_redacao-1.svg" />
                                     Folhas de Redação
                                 </a>
+                                <a class="profile-menu">
+                                    <img src="../assets/profile.svg" class="profile-img-menu" />
+                                    <span class="profile-name-menu">Gerald Smith</span>
+                                    <div class="profile-type-menu"><span>ALUNO</span></div>
+                                    <img src="../assets/logout.svg" class="profile-img-menu profile-img-exit" />
+                                </a>
                             </li>
                         </ul>
                     </aside>

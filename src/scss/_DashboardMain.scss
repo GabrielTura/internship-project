@@ -26,12 +26,34 @@
     }
     .navbar-menu{
         text-align: start;
+        transform: 0.5s;
     }
     .menu-list{
         margin-left: 10px;
     }
     .menu-list > li > a > img{
         padding-right: 25px;
+    }
+    .profile-menu{
+        margin-top: 40px;
+        margin-left: -4px;
+    }
+    .profile-img-menu{
+        width:45px;
+        height:20px;
+    }
+    .profile-img-exit{
+        margin-left: 240px;
+    }
+    .profile-name-menu{
+        position: absolute;
+        margin-top: -6px;
+    }
+    .profile-type-menu{
+        position: absolute;
+        margin-left: 46px;
+        margin-top: -11px;
+        font-size: 11px;
     }
     .dashMainMobile{
         background-color: #FCF8EC;
