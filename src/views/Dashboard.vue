@@ -27,3 +27,13 @@ export default {
   }
 };
 </script>
+
+<!-- @ is an alias to /src -->
+<style src="@/scss/_DashboardFooter.scss" lang="scss"></style>
+<style src="@/scss/_DashboardMain.scss" lang="scss"></style>
+<style src="@/scss/_DashboardMenu.scss" lang="scss"></style>
+<style src="@/scss/_DashboardNavBar.scss" lang="scss"></style>
+<style src="@/scss/_DashboardNavBarMessage.scss" lang="scss"></style>
+<style src="@/scss/_Footer.scss" lang="scss"></style>
+<style src="@/scss/_FormLogin.scss" lang="scss"></style>
+<style src="@/scss/_NavBar.scss" lang="scss"></style>
