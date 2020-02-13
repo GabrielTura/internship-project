@@ -37,3 +37,4 @@ export default {
 <style src="@/scss/_Footer.scss" lang="scss"></style>
 <style src="@/scss/_FormLogin.scss" lang="scss"></style>
 <style src="@/scss/_NavBar.scss" lang="scss"></style>
+<style src="@/scss/_columns.scss" lang="scss"></style>

@@ -102,52 +102,108 @@
                         </a>
                     </div>
                 </nav>
+                <div class="navbar-menu">
+                    <aside class="menu">
+                        <ul class="menu-list">
+                            <li>
+                                <a>
+                                    <img src="../assets/home-disable.svg" />
+                                    Painel
+                                </a>
+                                <a>
+                                    <img src="../assets/file.svg" />
+                                    Minhas Redações
+                                </a>
+                                <a>
+                                    <img src="../assets/propostas.svg" />
+                                    Propostas
+                                </a>
+                                <a>
+                                    <img src="../assets/simulado.svg" />
+                                    Simulados
+                                </a>
+                            </li>
+                            <p class="menu-label">
+                                BIBLIOTECA
+                            </p>
+                            <li>
+                                <a>
+                                    <img src="../assets/videoaulas-1.svg" />
+                                    Videoaulas
+                                </a>
+                                <a>
+                                    <img src="../assets/tutoriais-1.svg" />
+                                    Tutoriais
+                                </a>
+                                <a>
+                                    <img src="../assets/materiais-1.svg" />
+                                    Materiais
+                                </a>
+                                <a>
+                                    <img src="../assets/folha_redacao-1.svg" />
+                                    Folhas de Redação
+                                </a>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="card-item">
+                    <div class="card-i-align">
+                        <img class="card-i-align-img" src="../assets/file-w.svg" />
+                        <span class="card-i-align-text">Minhas Redações</span>
+                    </div>
+                </div>
+                <div class="card-item card-item-p">
+                    <div class="card-i-align">
+                        <img class="card-i-align-img" src="../assets/propostas-w.svg" />
+                        <span class="card-i-align-text">Propostas</span>
+                    </div>
+                </div>
+                <div class="card-item card-item-s">
+                    <div class="card-i-align">
+                        <img class="card-i-align-img" src="../assets/simulados-w.svg" />
+                        <span class="card-i-align-text">Simulados</span>
+                    </div>
+                </div>
+                <br>
+                <span class="span-div-carousel">Biblioteca</span>
+                <div class="div-carousel">
+                    <carousel>
+                        <slide class="carousel-slides">
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../assets/videoaulas.svg" />
+                                </div>
+                                <span>Videoaulas</span>
+                            </div>
+                        </slide>
+                        <slide class="carousel-slides">
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../assets/tutoriais.svg" />
+                                </div>
+                                <span>Tutoriais</span>
+                            </div>
+                        </slide>
+                        <slide class="carousel-slides">
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../assets/materiais.svg" />
+                                </div>
+                                <span>Materiais</span>
+                            </div>
+                        </slide>
+                        <slide class="carousel-slides">
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../assets/folha_redacao.svg" />
+                                </div>
+                                <span>Folhas de Redação</span>
+                            </div>
+                        </slide>
+                    </carousel>
+                </div>
             </div>
-        </div>
-        <div class="navbar-menu">
-            <aside class="menu">
-                <ul class="menu-list">
-                    <li>
-                        <a>
-                            <img src="../assets/home-disable.svg" />
-                            Painel
-                        </a>
-                        <a>
-                            <img src="../assets/file.svg" />
-                            Minhas Redações
-                        </a>
-                        <a>
-                            <img src="../assets/propostas.svg" />
-                            Propostas
-                        </a>
-                        <a>
-                            <img src="../assets/simulado.svg" />
-                            Simulados
-                        </a>
-                    </li>
-                    <p class="menu-label">
-                        BIBLIOTECA
-                    </p>
-                    <li>
-                        <a>
-                            <img src="../assets/videoaulas-1.svg" />
-                            Videoaulas
-                        </a>
-                        <a>
-                            <img src="../assets/tutoriais-1.svg" />
-                            Tutoriais
-                        </a>
-                        <a>
-                            <img src="../assets/materiais-1.svg" />
-                            Materiais
-                        </a>
-                        <a>
-                            <img src="../assets/folha_redacao-1.svg" />
-                            Folhas de Redação
-                        </a>
-                    </li>
-                </ul>
-            </aside>
         </div>
 </div>
 </template>

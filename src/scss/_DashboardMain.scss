@@ -16,6 +16,7 @@
     }
     .div-dashMobile {
         display: block;
+        background-color: #FCF8EC;
     }
     .icon-nav-mobile{
         width: 35px;
@@ -31,6 +32,68 @@
     }
     .menu-list > li > a > img{
         padding-right: 25px;
+    }
+    .dashMainMobile{
+        background-color: #FCF8EC;
+    }
+    .card-item{
+        background: linear-gradient(285deg, #F5317F, #FF7C6E) !important;
+        opacity: 1;
+        margin-top: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 10px;
+        height: 80px;
+        color: #fff;
+        font-size: 19px;
+        font-weight: bold;
+        text-align: start;
+        cursor: pointer;
+    }
+    .card-item-p{
+        background: linear-gradient(285deg, #FF8359, #FFDF40) !important;
+        opacity: 1;
+    }
+    .card-item-s{
+        background: linear-gradient(285deg, #D9000F, #EA5703, #EBAE1D) !important;
+        opacity: 1;
+    }
+    .card-i-align-img{
+        padding-top: 23px;
+        padding-left: 30px;
+    }
+    .card-i-align-text{
+        position: absolute;
+        white-space: nowrap;
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+    .span-div-carousel {
+        text-align: start;
+        font-weight: bold;
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    .carousel-slides{
+        text-align: center;
+        padding-top: 10px;
+        height: 130px;
+        padding-left: 80px;
+        margin-left: -50px;
+    }
+    .carousel-item{
+        background-color: #fff;
+        width: 120px;
+        height: 100px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.15);
+        padding-top: 30px;
+        white-space: nowrap;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .VueCarousel-dot-container{
+        display: none !important;
     }
 }
 .icon-r{
