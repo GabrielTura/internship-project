@@ -97,6 +97,14 @@
         background-color: #fff;
         height: 60px;
     }
+    .tabs li a{
+        border-bottom-color: #EBAE1D !important;
+        border-bottom-width: 0ex;
+    }
+    .tabs li.is-active a{
+        border-bottom-color: #EBAE1D !important;
+        border-bottom-width: 0.5ex;
+    }
     .VueCarousel-dot-container{
         display: none !important;
     }
