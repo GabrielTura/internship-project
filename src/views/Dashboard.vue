@@ -1,5 +1,5 @@
 <template>
-  <div class="dash">
+  <div class="dashboard">
     <DashboardMenu />
     <DashboardNavBar />
     <DashboardNavBarMessage />

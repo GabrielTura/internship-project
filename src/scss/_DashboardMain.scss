@@ -1,3 +1,38 @@
+@media only screen and (max-width: 600px) {
+    .div-dashMain {
+        display: none;
+    }
+    .dash{
+        display: none;
+    }
+    .footer-dash{
+        display: none;
+    }
+    .dashNav{
+        display: none;
+    }
+    .dashNavMens{
+        display: none;
+    }
+    .div-dashMobile {
+        display: block;
+    }
+    .icon-nav-mobile{
+        width: 35px;
+    }
+    .navbar-burger.burger{
+        color: #EC8700;
+    }
+    .navbar-menu{
+        text-align: start;
+    }
+    .menu-list{
+        margin-left: 10px;
+    }
+    .menu-list > li > a > img{
+        padding-right: 25px;
+    }
+}
 .icon-r{
     height: 90px;
     margin-top: 30px;
