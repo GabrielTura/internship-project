@@ -203,6 +203,30 @@
                         </slide>
                     </carousel>
                 </div>
+                <div class="tabs is-centered">
+                    <ul>
+                        <li>
+                            <a>
+                                <span class="icon is-small"><img src="../assets/profile.svg" /></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span class="icon is-small"><img src="../assets/file.svg" /></span>
+                            </a>
+                        </li>
+                        <li class="is-active">
+                            <a>
+                                <span class="icon is-small"><img src="../assets/home.svg" /></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span class="icon is-small"><img src="../assets/notification.svg" /></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 </div>
