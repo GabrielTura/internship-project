@@ -143,31 +143,31 @@
         display: none !important;
     }
 }
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
     .div-dashMain {
         display: block;
     }
-    .dash{
+    .dash {
         display: block;
     }
-    .footer-dash{
+    .footer-dash {
         display: block;
     }
-    .dashNav{
+    .dashNav {
         display: block;
     }
-    .dashNavMens{
+    .dashNavMens {
         display: block;
     }
     .div-dashMobile {
         display: none;
     }
-    .icon-r{
+    .icon-r {
         height: 90px;
         margin-top: 30px;
         margin-left: 55px;
     }
-    .seeSimul{
+    .seeSimul {
         position: absolute;
         width: 320px;
         height: 250px;
@@ -177,7 +177,7 @@
         box-shadow: 0px 3px 6px #00000029;
         opacity: 1;
     }
-    .myRed{
+    .myRed {
         position: absolute;
         width: 320px;
         height: 250px;
@@ -187,7 +187,7 @@
         box-shadow: 0px 3px 6px #00000029;
         opacity: 1;
     }
-    .upRed{
+    .upRed {
         position: absolute;
         width: 310px;
         height: 250px;
@@ -197,14 +197,14 @@
         box-shadow: 0px 3px 6px #00000029;
         opacity: 1;
     }
-    .news-title{
+    .news-title {
         font-weight: bold;
         position: absolute;
         margin-top: 30px;
         margin-left: 25px;
         white-space: nowrap;
     }
-    .news-link{
+    .news-link {
         position: absolute;
         color:$purple-1;
         margin-top: 55px;
@@ -214,7 +214,7 @@
     .span-span{
         margin-left: 12px;
     }
-    .span-news{
+    .span-news {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -226,13 +226,13 @@
         width:100%;
         min-width:1px;
     }
-    .span-title{
+    .span-title {
         position: absolute;
         margin-top: 160px;
         margin-left: 40px;
         font-size: .8rem;
     }
-    .div-icons{
+    .div-icons {
         position: absolute;
         width: 65px;
         height: 65px;
@@ -243,26 +243,26 @@
         margin-left: 40px;
         transform: .5s;
     }
-    .lastP{
+    .lastP {
         height: 250px;
         margin-top: 40px;
         background: $white 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         opacity: 1;
     }
-    .library-title{
+    .library-title {
         font-weight: bold;
         position: absolute;
         margin-top: 30px;
         margin-left: 40px;
     }
-    .library-icons{
+    .library-icons {
         position: absolute;
         margin-top: 20px;
         margin-left: 20px;
         transform: rotate(-45deg);
     }
-    .library{
+    .library {
         height: 250px;
         margin-top: 40px;
         margin-left: 40px;
@@ -270,7 +270,7 @@
         box-shadow: 0px 3px 6px #00000029;
         opacity: 1;
     }
-    .dashMain{
+    .dashMain {
         position: absolute;
         top: 0;
         margin-top: 80px;
