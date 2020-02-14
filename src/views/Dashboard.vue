@@ -6,10 +6,9 @@
         <DashboardNavBar />
         <DashboardNavBarMessage />
         <DashboardMain />
+        <DashboardFooter />
       </div>
     </div>
-    <!--
-    <DashboardFooter />-->
   </div>
 </template>
 
@@ -19,7 +18,7 @@ import DashboardMenu from "@/components/DashboardMenu.vue";
 import DashboardNavBar from "@/components/DashboardNavBar.vue";
 import DashboardNavBarMessage from "@/components/DashboardNavBarMessage.vue";
 import DashboardMain from "@/components/DashboardMain.vue";
-//import DashboardFooter from "@/components/DashboardFooter.vue";
+import DashboardFooter from "@/components/DashboardFooter.vue";
 
 export default {
   name: "Dashboard",
@@ -28,7 +27,7 @@ export default {
     DashboardNavBar,
     DashboardNavBarMessage,
     DashboardMain,
-    //DashboardFooter
+    DashboardFooter
   }
 };
 </script>
