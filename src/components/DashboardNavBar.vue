@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar is-transparent">
+    <nav class="navbar is-transparent dashMainNav">
         <div class="navbar-menu">
             <div class="navbar-end">
                 <div class="navbar-item has-dropdown is-hoverable">

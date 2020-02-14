@@ -5,10 +5,10 @@
       <div class="column dashNav">
         <DashboardNavBar />
         <DashboardNavBarMessage />
+        <DashboardMain />
       </div>
     </div>
     <!--
-    <DashboardMain />
     <DashboardFooter />-->
   </div>
 </template>
@@ -18,7 +18,7 @@
 import DashboardMenu from "@/components/DashboardMenu.vue";
 import DashboardNavBar from "@/components/DashboardNavBar.vue";
 import DashboardNavBarMessage from "@/components/DashboardNavBarMessage.vue";
-//import DashboardMain from "@/components/DashboardMain.vue";
+import DashboardMain from "@/components/DashboardMain.vue";
 //import DashboardFooter from "@/components/DashboardFooter.vue";
 
 export default {
@@ -27,7 +27,7 @@ export default {
     DashboardMenu,
     DashboardNavBar,
     DashboardNavBarMessage,
-    //DashboardMain,
+    DashboardMain,
     //DashboardFooter
   }
 };

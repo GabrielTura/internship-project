@@ -1,5 +1,5 @@
 <template>
-  <div class="column is-one-fifth">
+  <div class="column is-one-fifth dashMenu">
     <div class="navbar-brand gradient-color-overlay">
       <a class="navbar-item brand-logo">
         <img src="../assets/logo-dash-large.png">
@@ -45,11 +45,11 @@
               <img src="../assets/tutoriais-1.svg" class="menu-li-img"/>
               <span class="menu-li-text">Tutoriais</span>
             </a>
-            <a style="margin-top:300px;">
+            <a class="newUp">
               <img src="../assets/upload.svg" class="menu-li-img"/>
               <span class="menu-li-text">Nova Redação</span>
             </a>
-        </li>
+          </li>
       </ul>
     </aside>
   </div>
