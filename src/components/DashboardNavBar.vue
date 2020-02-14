@@ -1,26 +1,27 @@
 <template>
-  <div class="dashNav">
-    <section>
-        <b-dropdown class="sect-drop" hoverable aria-role="list">
-            <button class="button" slot="trigger">
-                <div class="profile-img">
-                    <img class="profile-img" src="../assets/profile.svg"/>
+    <nav class="navbar is-transparent">
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <img src="../assets/profile.svg" class="profile-img"/>
+                    <a class="navbar-link">
+                        Gerald Smith
+                    </a>
+                    <div class="navbar-dropdown is-right is-boxed">
+                        <a class="navbar-item">
+                            Meu Perfil
+                        </a>
+                        <router-link to="/">
+                            <a class="navbar-item">
+                                Sair
+                            </a>
+                        </router-link>
+                    </div>
                 </div>
-                <span class="profile-name">Gerald Smith</span>
-                <span class="profile-type">ALUNO</span>
-            </button>
-
-            <img class="img-drop" src="../assets/profile.svg"/>
-            <b-dropdown-item class="itens-drop" aria-role="listitem">Meu Perfil</b-dropdown-item>
-            <img class="img-drop" src="../assets/logout.svg"/>
-            <router-link to="/"><b-dropdown-item class="itens-drop" aria-role="listitem">Sair</b-dropdown-item></router-link>
-        </b-dropdown>
-        <span class="span-esp">&nabla;</span>
-        <div class="div-notif">
-            <button class="btn-notif">
-                <img class="img-notif" src="../assets/notification.svg"/>
-            </button>
+                <a class="button is-white notification-btn">
+                    <img src="../assets/notification.svg" class="notification-img"/>
+                </a>
+            </div>
         </div>
-    </section>
-  </div>
+    </nav>
 </template>
