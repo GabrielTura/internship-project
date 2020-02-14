@@ -1,10 +1,12 @@
+@import "@/scss/_Colors.scss";
+
 .span-test {
     margin-top: 39px;
     margin-right: 18px;
     text-align: left;
     font-size: 0.7rem;
     letter-spacing: 0.18px;
-    color: #B3AFB3;
+    color: $grey-2;
     opacity: 1;
   }
   .avatar {
@@ -16,7 +18,7 @@
   }
   
   .avatar:hover {
-    background-color: #707070;
+    background-color: $grey-1;
     cursor: pointer;
   }
   
@@ -37,5 +39,5 @@
     margin: 0 10px;
   }
   a {
-    color: #42b983;
+    color: $green-1;
   }

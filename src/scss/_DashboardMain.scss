@@ -1,3 +1,5 @@
+@import "@/scss/_Colors.scss";
+
 @media only screen and (max-width: 991px) {
     .div-dashMain {
         display: none;
@@ -19,7 +21,7 @@
     }
     .div-dashMobile {
         display: block;
-        background-color: #FCF8EC;
+        background-color: $yellow-1;
     }
     .icon-nav-mobile{
         width: 35px;
@@ -67,7 +69,7 @@
         font-size: 11px;
     }
     .dashMainMobile{
-        background-color: #FCF8EC;
+        background-color: $yellow-1;
     }
     .card-item{
         background: linear-gradient(285deg, #F5317F, #FF7C6E) !important;
@@ -77,7 +79,7 @@
         margin-right: 30px;
         border-radius: 10px;
         height: 80px;
-        color: #fff;
+        color: $white;
         font-size: 19px;
         font-weight: bold;
         text-align: start;
@@ -88,7 +90,7 @@
         opacity: 1;
     }
     .card-item-s{
-        background: linear-gradient(285deg, #D9000F, #EA5703, #EBAE1D) !important;
+        background: linear-gradient(285deg, $red-2, #EA5703, $yellow-g) !important;
         opacity: 1;
     }
     .card-i-align-img{
@@ -114,7 +116,7 @@
         margin-left: -50px;
     }
     .carousel-item{
-        background-color: #fff;
+        background-color: $white;
         width: 120px;
         height: 100px;
         border-radius: 20px;
@@ -126,15 +128,15 @@
     }
     .tabs{
         margin-top: 22px;
-        background-color: #fff;
+        background-color: $white;
         height: 60px;
     }
     .tabs li a{
-        border-bottom-color: #EBAE1D !important;
+        border-bottom-color: $yellow-g !important;
         border-bottom-width: 0ex;
     }
     .tabs li.is-active a{
-        border-bottom-color: #EBAE1D !important;
+        border-bottom-color: $yellow-g !important;
         border-bottom-width: 0.5ex;
     }
     .VueCarousel-dot-container{
@@ -204,7 +206,7 @@
     }
     .news-link{
         position: absolute;
-        color:#7F63F4;
+        color:$purple-1;
         margin-top: 55px;
         margin-left: 25px;
         font-size: .75rem;
@@ -219,7 +221,7 @@
         font-size: .85rem;
         margin-left: 20px;
         line-height: 28px;
-        color: #FFF;
+        color: $white;
         display:block;
         width:100%;
         min-width:1px;
@@ -235,7 +237,7 @@
         width: 65px;
         height: 65px;
         transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
-        background-color: #FFF;
+        background-color: $white;
         border-radius: 20px;
         margin-top: 85px;
         margin-left: 40px;
@@ -244,7 +246,7 @@
     .lastP{
         height: 250px;
         margin-top: 40px;
-        background: #FFFFFF 0% 0% no-repeat padding-box;
+        background: $white 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         opacity: 1;
     }
@@ -277,19 +279,19 @@
     /* Hover Effects */ 
     
     .div-icons:hover{
-        background-color: #0000000F;
+        background-color: $grey-4;
         cursor: pointer;
     }
     .upIcon:hover{
-        background-color: #FFF;
+        background-color: $white;
         opacity: .9;
     }
     .seeIcon:hover{
-        background-color: #FFF;
+        background-color: $white;
         opacity: .9;
     }
     .myIcon:hover{
-        background-color: #FFF;
+        background-color: $white;
         opacity: .9;
     }
     
@@ -297,7 +299,7 @@
     
     .upIcon{
         height: 150px;
-        background: linear-gradient(294deg, #D9000F, #EA5703, #EBAE1D);
+        background: linear-gradient(294deg, $red-2, #EA5703, $yellow-g);
         transform: .9s;
     }
     .seeIcon{

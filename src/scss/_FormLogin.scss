@@ -1,3 +1,5 @@
+@import "@/scss/_Colors.scss";
+
 @media only screen and (max-width: 600px) {
     .tt{
       display: none;
@@ -17,18 +19,18 @@
     }
     .label-end{
       margin-left: 55px !important;
-      color: #fff !important;
+      color: $white !important;
       text-decoration-line: underline;
       font-weight: 200;
     }
     .label-end:hover{
-      color: #fff !important;
+      color: $white !important;
     }
     .btn-login{
-      background-color: #D7311C !important;
+      background-color: $red-1 !important;
       width: 210px !important;
       border-radius: 5px !important;
-      border-color: transparent !important;
+      border-color: $transparent !important;
     }
     .btn-login:hover{
       background-color: red !important;
@@ -47,11 +49,11 @@
       background-position-x: -400px !important;
     }
     .formLoginMobile {
-      background-color:transparent;
+      background-color:$transparent;
       width: 330px;
       height: 450px;
       position: absolute;
-      color: #fff;
+      color: $white;
       font-weight: bold;
       font-size: 17px;
       padding-left: 60px;
@@ -68,7 +70,7 @@
       display: none;
     }
     .btn-login{
-      background-color: #EBAE1D !important;
+      background-color: $yellow-g !important;
     }
     .formLoginMobile{
       display: none;
@@ -79,24 +81,24 @@
     color: #A5220C !important;
   }
   .label-checkbox {
-    color: #979797 !important;
+    color: $grey-3 !important;
     font-size: .9rem;
   }
   .label-end {
-    color: #979797;
+    color: $grey-3;
     font-size: .9rem;
     margin-left: 157px;
   }
   .label-end:hover {
-    color: #707070;
+    color: $grey-1;
   }
   .formLogin {
-    background-color:#FFF;
+    background-color:$white;
     border-radius: 20px;
     width: 550px;
     height: 450px;
     position: absolute;
-    color: #D9000F;
+    color: $red-2;
     font-size: 17px;
     padding-left: 60px;
     padding-right: 60px;
@@ -107,8 +109,8 @@
   }
   .btn-login {
     margin-top: 25px;
-    background-color: #EBAE1D;
-    color: #FFF !important;
+    background-color: $yellow-g;
+    color: $white !important;
     width: 250px;
   }
   .gradient-color-overlay {
@@ -119,7 +121,7 @@
   }
   .background {
     background: #000 url("../assets/background-home.png");
-    color: #fff;
+    color: $white;
     height: 600px;
     width: 100%;
     display: flex;

@@ -1,8 +1,13 @@
+@import "@/scss/_Colors.scss";
+
 .dashMenu{
   box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.1);
 }
 .menu-list{
   text-align: start;
+}
+.menu-list li a:hover{
+  border-left: 18px solid $grey-2;
 }
 .menu-li-img{
   position: absolute;
@@ -11,11 +16,11 @@
 .menu-li-text {
   margin-left: 67px;
   white-space: nowrap;
-  color: #B3AFB3;
+  color: $grey-2;
 }
 .menu-li-active{
-  background-color: #F5B40026;
-  border-left: 18px solid #EBAE1D;
+  background-color: $yellow-2;
+  border-left: 18px solid $yellow-g;
 }
 .menu-li-text-active {
   margin-left: 50px;

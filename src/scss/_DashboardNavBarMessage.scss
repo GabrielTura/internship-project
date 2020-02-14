@@ -1,10 +1,12 @@
+@import "@/scss/_Colors.scss";
+
 .message {
     position: absolute;
     margin-top: 4.3px;
     font-weight: 500;
     left: 0;
     margin-left: 50px;
-    background-color: transparent !important;
+    background-color: $transparent !important;
 }
 .dashNavMens {
     position: absolute;
@@ -13,5 +15,5 @@
     height: 30px;
     margin-top: 50px;
     color: #a5220c;
-    background-color: #ec87001a;
+    background-color: $yellow-3;
 }
