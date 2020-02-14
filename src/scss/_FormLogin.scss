@@ -27,6 +27,8 @@
     .btn-login{
       background-color: #D7311C !important;
       width: 210px !important;
+      border-radius: 5px !important;
+      border-color: transparent !important;
     }
     .btn-login:hover{
       background-color: red !important;
@@ -54,11 +56,13 @@
       font-size: 17px;
       padding-left: 60px;
       padding-right: 60px;
+      text-align: center;
     }
   }
   @media only screen and (min-width: 600px) {
     .formLogin{
       display: block;
+      text-align: center;
     }
     .tt{
       display: none;

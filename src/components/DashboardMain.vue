@@ -101,64 +101,63 @@
                             <img src="../assets/logo-home-small.png" class="icon-nav-mobile">
                         </a>
 
-                        <a onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <a role="button" onclick="document.getElementById('nav-active').classList.toggle('is-active');" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                             <span aria-hidden="true"></span>
                             <span aria-hidden="true"></span>
                             <span aria-hidden="true"></span>
                         </a>
                     </div>
                 </nav>
-                <div class="navbar-menu">
+                <div class="navbar-menu" id="nav-active">
                     <aside class="menu">
-                        <ul class="menu-list">
-                            <li>
+                    <ul class="menu-list">
+                        <li>
+                            <a class="menu-li-active">
+                                <img src="../assets/home.svg" style="position: absolute;"/>
+                                <span class="menu-li-text-active">Painel</span>
+                            </a>
+                            <a>
+                                <img src="../assets/file.svg" class="menu-li-img"/>
+                                <span class="menu-li-text">Minhas Redações</span>
+                            </a>
+                            <a>
+                                <img src="../assets/propostas.svg" class="menu-li-img"/>
+                                <span class="menu-li-text">Propostas</span>
+                            </a>
+                            <a>
+                                <img src="../assets/simulado.svg" class="menu-li-img"/>
+                                <span class="menu-li-text">Simulados</span>
+                            </a>
+                            <hr>
+                            <a>
+                                <img src="../assets/videoaulas-1.svg" class="menu-li-img"/>
+                                <span class="menu-li-text">Videoaulas</span>
+                            </a>
+                            <a>
+                                <img src="../assets/tutoriais-1.svg" class="menu-li-img"/>
+                                <span class="menu-li-text">Tutoriais</span>
+                            </a>
+                            <a>
+                                <img src="../assets/materiais-1.svg" class="menu-li-img"/>
+                                <span class="menu-li-text">Materiais</span>
+                            </a>
+                            <a>
+                                <img src="../assets/folha_redacao-1.svg" class="menu-li-img"/>
+                                <span class="menu-li-text">Folhas de Redação</span>
+                            </a>
+                            <router-link class="profile-menu" to="/">
                                 <a>
-                                    <img src="../assets/home-disable.svg" />
-                                    Painel
-                                </a>
-                                <a>
-                                    <img src="../assets/file.svg" />
-                                    Minhas Redações
-                                </a>
-                                <a>
-                                    <img src="../assets/propostas.svg" />
-                                    Propostas
-                                </a>
-                                <a>
-                                    <img src="../assets/simulado.svg" />
-                                    Simulados
-                                </a>
-                            </li>
-                            <p class="menu-label">
-                                BIBLIOTECA
-                            </p>
-                            <li>
-                                <a>
-                                    <img src="../assets/videoaulas-1.svg" />
-                                    Videoaulas
-                                </a>
-                                <a>
-                                    <img src="../assets/tutoriais-1.svg" />
-                                    Tutoriais
-                                </a>
-                                <a>
-                                    <img src="../assets/materiais-1.svg" />
-                                    Materiais
-                                </a>
-                                <a>
-                                    <img src="../assets/folha_redacao-1.svg" />
-                                    Folhas de Redação
-                                </a>
-                                <a class="profile-menu">
                                     <img src="../assets/profile.svg" class="profile-img-menu" />
                                     <span class="profile-name-menu">Gerald Smith</span>
                                     <div class="profile-type-menu"><span>ALUNO</span></div>
                                     <img src="../assets/logout.svg" class="profile-img-menu profile-img-exit" />
                                 </a>
-                            </li>
-                        </ul>
+                            </router-link>
+                        </li>
+                    </ul>
                     </aside>
                 </div>
+            </div>
                 <div class="card-item">
                     <div class="card-i-align">
                         <img class="card-i-align-img" src="../assets/file-w.svg" />
@@ -241,5 +240,4 @@
                 </div>
             </div>
         </div>
-</div>
 </template>

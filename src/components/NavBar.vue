@@ -1,7 +1,7 @@
 <template>
 <b-navbar class="tt">
         <template slot="brand">
-        <img style="margin-left:30px;width:133px;height:85px;" src="../assets/logo-home-small-wordmark.png">
+            <img style="margin-left:30px;width:133px;height:85px;" src="../assets/logo-home-small-wordmark.png">
         </template>
         <template slot="end">
             <span class="span-test">Acessar Como:</span>

@@ -11,7 +11,7 @@
             </b-input>
           </b-field>
           <b-field label="*Password">
-            <b-input type="password" password-reveal>
+            <b-input type="password">
             </b-input>
           </b-field>
           <div class="field">

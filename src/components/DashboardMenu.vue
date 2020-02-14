@@ -1,9 +1,7 @@
 <template>
   <div class="column is-one-fifth dashMenu">
     <div class="navbar-brand gradient-color-overlay">
-      <a class="navbar-item brand-logo">
-        <img src="../assets/logo-dash-large.png">
-      </a>
+      <img class="icon-back" src="../assets/logo-dash-large.png">
     </div>
     <aside class="menu">
       <ul class="menu-list">

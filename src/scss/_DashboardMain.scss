@@ -34,15 +34,20 @@
         text-align: start;
         transform: 0.5s;
     }
+    #nav-active{
+        width:100%;
+        position:fixed;
+        z-index:1;
+    }
     .menu-list{
-        margin-left: 10px;
+        margin-left: 20px;
     }
     .menu-list > li > a > img{
-        padding-right: 25px;
+        padding-right: 35px;
     }
     .profile-menu{
         margin-top: 40px;
-        margin-left: -4px;
+        margin-left: -8px;
     }
     .profile-img-menu{
         width:45px;
