@@ -4,9 +4,10 @@
       <DashboardMenu />
       <div class="column dashNav">
         <DashboardNavBar />
+        <DashboardNavBarMessage />
       </div>
     </div>
-    <!--<DashboardNavBarMessage />
+    <!--
     <DashboardMain />
     <DashboardFooter />-->
   </div>
@@ -16,7 +17,7 @@
 // @ is an alias to /src
 import DashboardMenu from "@/components/DashboardMenu.vue";
 import DashboardNavBar from "@/components/DashboardNavBar.vue";
-//import DashboardNavBarMessage from "@/components/DashboardNavBarMessage.vue";
+import DashboardNavBarMessage from "@/components/DashboardNavBarMessage.vue";
 //import DashboardMain from "@/components/DashboardMain.vue";
 //import DashboardFooter from "@/components/DashboardFooter.vue";
 
@@ -25,7 +26,7 @@ export default {
   components: {
     DashboardMenu,
     DashboardNavBar,
-    //DashboardNavBarMessage,
+    DashboardNavBarMessage,
     //DashboardMain,
     //DashboardFooter
   }
