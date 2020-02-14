@@ -4,13 +4,15 @@
 
  - Fix All Reponsives Bugs
  - Add All Animations
- - Convert DashboardLayout Desktop for Layout Mobile
- - Fix All Console Warnings
- - Organize the Code - Better
 
 ## Done
 
  - Convert FormLogin Desktop for Layout Mobile
+ - Convert DashboardLayout Desktop for Layout Mobile
+ - Fix All Console Warnings
+ - Organize the Code - Better
+ - Fix Some Reponsives Bugs
+ - Add Some Animations
 
 ## Project setup
 ```
@@ -19,7 +21,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run serve --fix
 ```
 
 ### Compiles and minifies for production
