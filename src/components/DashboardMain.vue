@@ -67,6 +67,7 @@
             <div class="upRed">
                 <div class="upIcon">
                     <img class="icon-r" src="../assets/surface1.svg"/>
+                    <img class="balls" src="../assets/balls.png"/>
                 </div>
                 <div>
                     <span class="news-title">Subir Nova Redação</span>
@@ -76,6 +77,7 @@
             <div class="myRed">
                 <div class="myIcon">
                     <img class="icon-r" src="../assets/note.svg"/>
+                    <img class="balls" src="../assets/balls.png"/>
                 </div>
                 <div>
                     <span class="news-title">Minhas Redações</span>
@@ -85,6 +87,7 @@
             <div class="seeSimul">
                 <div class="seeIcon">
                     <img class="icon-r" src="../assets/simulados.svg"/>
+                    <img class="balls" src="../assets/balls.png"/>
                 </div>
                 <div>
                     <span class="news-title">Visualizar Simulados</span>

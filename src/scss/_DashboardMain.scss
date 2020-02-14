@@ -241,7 +241,7 @@
         border-radius: 20px;
         margin-top: 85px;
         margin-left: 40px;
-        transform: .5s;
+        transition: transform .4s;
     }
     .lastP {
         height: 250px;
@@ -275,24 +275,38 @@
         top: 0;
         margin-top: 80px;
     }
+    .balls{
+        position: absolute;
+        margin-left: -158px;
+        transition: transform .2s ease-in-out;
+        opacity: 0.15;
+    }
     
     /* Hover Effects */ 
     
+    .balls:hover{
+        transform: rotate(10deg);
+        cursor: pointer;
+    }
     .div-icons:hover{
         background-color: $grey-4;
         cursor: pointer;
+        transform: scale(0.5);
     }
     .upIcon:hover{
         background-color: $white;
         opacity: .9;
+        cursor: pointer;
     }
     .seeIcon:hover{
         background-color: $white;
         opacity: .9;
+        cursor: pointer;
     }
     .myIcon:hover{
         background-color: $white;
         opacity: .9;
+        cursor: pointer;
     }
     
     /* Gradient Colors - "Icons" */
